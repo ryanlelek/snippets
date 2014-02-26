@@ -11,6 +11,7 @@ npm uninstall -g forever;
 npm uninstall -g generator-angular;
 npm uninstall -g generator-karma;
 npm uninstall -g grunt-cli;
+npm uninstall -g gulp;
 npm uninstall -g hexo;
 npm uninstall -g jshint;
 npm uninstall -g localtunnel;

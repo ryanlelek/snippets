@@ -11,6 +11,7 @@ npm install -g forever;				# 0.10.11
 npm install -g generator-angular;	# 0.7.0
 npm install -g generator-karma;		# 0.6.0
 npm install -g grunt-cli;			# 0.1.11
+npm install -g gulp;
 npm install -g hexo;				# 2.4.5
 npm install -g jshint;				# 2.4.1
 npm install -g localtunnel;			# 0.2.2
