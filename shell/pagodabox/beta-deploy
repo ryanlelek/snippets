@@ -1,0 +1,28 @@
+#!/bin/bash
+# Deploys an app to Pagoda Box
+
+echo -e "Are you sure you want to deploy? [Y/n]"
+read confirmation
+
+if [ $confirmation == "Y" ]; then
+
+	# Push Master Branch
+	git push pagodabox-beta master
+
+	# Do Beta Stuff
+	git checkout beta
+	git merge --no-ff master
+	git push pagodabox-beta beta
+
+	# Switch Back to Master Branch
+	git checkout master
+
+	# Output
+	echo "===== Beta Deploy script finished. ====="
+
+else
+
+	# Output
+	echo "Ok then..."
+
+fi

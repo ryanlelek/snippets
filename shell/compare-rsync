@@ -1,0 +1,5 @@
+#!/bin/bash
+
+diff -qr $1 $2;
+
+#rsync --archive --dry-run --checksum --verbose $1 $2;

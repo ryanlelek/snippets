@@ -1,0 +1,4 @@
+#!/bin/bash
+
+md5deep -r -s $1 > /tmp/md5deep_dir1hashes;
+md5deep -r -X /tmp/md5deep_dir1hashes $2;
