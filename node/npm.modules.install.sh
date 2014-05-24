@@ -2,7 +2,10 @@
 
 # For Scripting
 # ├─┬ module@1.0.0
-# └── last@0.0.1
+# └─┬ complex@1.0.0
+# └── simple@1.0.0
+# npm list -g | grep -w "^├─┬"
+# npm list -g | grep -w "^└─┬"
 
 ###################
 ##### Install #####
